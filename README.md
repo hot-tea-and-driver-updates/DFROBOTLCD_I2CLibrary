@@ -4,7 +4,7 @@
 
 ## Description
 
-The DFROBOT LCD I2C Library is a simple Arduino library that provides an interface to control LCD displays using the I2C communication protocol. This library is designed to work specifically with DFROBOT I2C LCD displays, making it easy to integrate and utilize the LCD functionality in your Arduino projects.
+The DFROBOT LCD Library repository contains a source file with relevant function definitions and a main file containing driver code to provide an  interface to control the LCD display. The source code makes use of the I2C communication protocol to properly configure hardware register values and initialize the LCD for user control. This library is designed to work specifically with DFROBOT I2C-based LCD displays, making it easy to integrate and utilize the LCD functionality in your PSoC6 projects.
 
 ## Features
 
@@ -12,25 +12,6 @@ The DFROBOT LCD I2C Library is a simple Arduino library that provides an interfa
 - Provides simple functions to initialize the display, set the cursor position, clear the display, and print text.
 - Customizable backlight control for supported displays.
 - Optimized I2C communication for improved performance.
-
-## Installation
-
-1. Clone or download the repository.
-2. Move the `DFROBOTLCD_I2CLibrary` folder to your Arduino libraries directory.
-   - On Windows: `Documents\Arduino\libraries`
-   - On macOS: `Documents/Arduino/libraries`
-   - On Linux: `~/Arduino/libraries`
-3. Restart the Arduino IDE if it was already running.
-4. You can now include the library in your Arduino sketches by selecting **Sketch > Include Library > DFROBOTLCD_I2CLibrary**.
-
-## Usage
-
-1. Connect your DFROBOT I2C LCD display to your Arduino board following the wiring instructions provided in the `examples` directory.
-2. Open the Arduino IDE and navigate to **File > Examples > DFROBOTLCD_I2CLibrary** to access the example sketches.
-3. Choose an example sketch and upload it to your Arduino board.
-4. You should see the relevant information displayed on the LCD screen.
-
-For detailed usage instructions and available functions, refer to the [library documentation](docs/README.md).
 
 ## Contributing
 
@@ -43,7 +24,6 @@ Contributions are welcome and greatly appreciated. To contribute to the DFROBOT 
 5. Commit your changes and push them to your fork.
 6. Submit a pull request, clearly describing the changes you made.
 
-Please review the [contribution guidelines](CONTRIBUTING.md) for more information.
 
 ## License
 
